@@ -16,7 +16,7 @@ body {
   background-color: white;
   font-size: 100%;
   font-family: 'Raleway', sans-serif; 
-  color: #3d3536;
+  color: white;
   
 }
 
@@ -55,7 +55,7 @@ a {
   left: 0;
   width: 100%;
   height: 50px;
-  background: rgba(38, 141, 218, 0.2);
+  background: rgba(0, 0, 0, 0.6);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   z-index: 2;
 }
@@ -81,11 +81,111 @@ a {
 
 }
 
+.contact{
+
+background: gold;
+opacity: .6;
+margin:-1px;
+
+}
+
+.contact a{
+
+color: white;
+
+}
+
+
+.menu{
+
+margin:-2px;
+opacity:.6;
+
+}
+
+.menu a{
+
+color: white;
+
+}
+
+.social{
+
+
+}
+.social ul {
+
+  list-style:none;
+
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.social li{
+
+  display:inline;
+}
+
+.social ul.is-visible {
+
+
+  -webkit-transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  -o-transform: translateY(50px);
+  transform: translateY(50px);
+}
+.social a {
+
+padding:1px;
+
+
+}
+
+.social img {
+
+background: white;
+border-radius: 50%;
+opacity: .6;
+
+}
+
+.icon{
+padding-top:2px;
+
+filter: invert(1);
+  -webkit-filter: invert(1);
+  -moz-filter: invert(1);
+  -o-filter: invert(1);
+  -ms-filter: invert(1);
+   transition: filter 2s ease;
+
+}
+
+.icon:hover{
+
+
+filter: invert(0);
+  -webkit-filter: invert(0);
+  -moz-filter: invert(0);
+  -o-filter: invert(0);
+  -ms-filter: invert(0);
+
+
+}
+
+
+
+
+
+
 section{
 
 width:  100%;
 padding: 2em;
-
 
 }
 
@@ -121,10 +221,16 @@ nav a {
   height: 50px;
   line-height: 50px;
   padding-left: 5%;
-  background: #2f292a;
+  background: black;
   border-top: 1px solid #453c3d;
-  color: #a6989a;
+  color: white;
+  opacity: .8;
 }
+
+nav a:hover {
+
+    color: red;
+  }
 @media only screen and (min-width: 768px) {
   nav{
     width: auto;
@@ -160,20 +266,24 @@ nav a {
     background: transparent;
     padding: .6em 1em;
     border-top: none;
-    color: #3d3536;
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
     font-size: 0.675rem;
   }
   .no-touch nav a:hover {
-    color: white;
+    color: yellow;
   }
 
-nav ul li a:selected {
-    background: red
-}
+  .no-touch .contact a:hover{
 
+  color: purple;
+
+  }
+
+
+}
 
 .main-content {
   /* you need to assign a min-height to the main content so that the children can inherit it*/
@@ -205,10 +315,54 @@ nav ul li a:selected {
   max-width: 1170px;
   text-align: center;
   font-size: 30px;
-  font-size: 1.875rem;
+  font-size: 2.15rem;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   color: white;
 }
+
+.fixed-bg h5{
+
+   position: absolute;
+  left: 50%;
+  top: 60%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  font-size: 20px;
+  font-size: 1.3rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.fixed-bg h6{
+
+   position: absolute;
+  left: 50%;
+  top: 70%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  font-size: 20px;
+  font-size: 1.3rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+
 .fixed-bg.bg-1 {
   background-image: url("../img/bg_sky.jpg");
 }
@@ -225,9 +379,40 @@ nav ul li a:selected {
 
 
 @media only screen and (min-width: 768px) {
-  .fixed-bg h1, .fixed-bg h2 {
+  .fixed-bg h1, .fixed-bg h2{
     font-size: 60px;
   }
+
+.fixed-bg h5{
+
+  font-size:25px;
+  position: absolute;
+  left: 50%;
+  top: 63%;
+}
+
+.fixed-bg h6{
+
+  font-size:25px;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+}
+
+.social a {
+
+padding:5px;
+
+}
+
+.contact a{
+
+color: black;
+
+}
+
+
+
 }
 @media only screen and (min-width: 1170px) {
   .fixed-bg {
@@ -237,6 +422,38 @@ nav ul li a:selected {
     font-size: 100px;
     font-weight: 300;
   }
+
+.fixed-bg h5{
+
+  font-size:40px;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+
+}
+
+.fixed-bg h6{
+
+  font-size:40px;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+
+}
+
+.social a {
+
+padding:5px;
+
+}
+
+.contact a{
+
+color: black;
+
+}
+
+
 }
 
 .scrolling-bg {
@@ -248,8 +465,8 @@ nav ul li a:selected {
   z-index: 2;
 }
 .scrolling-bg.color-1 {
-  background-color: #165783;
-  color: #a6989a;
+  background-color: #FFF8F2;
+  color: black;
 }
 .scrolling-bg.color-2 {
   background-color: #165783;
