@@ -30,6 +30,12 @@ a {
   text-decoration: none;
 }
 
+h2{
+
+font-size: 2em;
+
+}
+
 /*modules*/
 
 .container {
@@ -416,9 +422,11 @@ nav a:hover {
 }
 .fixed-bg.bg-3 {
   background-image: url("../img/bg3.jpg");
+
 }
 .fixed-bg.bg-4 {
   background-image: url("../img/bg4.jpg");
+ 
 }
 
 
@@ -512,7 +520,6 @@ color: black;
 .scrolling-bg.color-1 {
   background-color: #FFF8F2;
   color: black;
-  height: 120%;
 }
 .scrolling-bg.color-2 {
   background-color: #FFF8F2;
@@ -522,6 +529,11 @@ color: black;
   background-color: #FFF8F2;
   color: black;
 }
+.scrolling-bg.color-4 {
+ background-color: black;
+  color: white;
+}
+
 @media only screen and (min-width: 768px) {
   .scrolling-bg {
     padding: 8em 0;
@@ -530,10 +542,6 @@ color: black;
     line-height: 2;
     font-weight: 400;
   }
-
-  .scrolling-bg.color-1 {
-  height: 140%;
-}
 
 }
 
@@ -699,27 +707,75 @@ body {
 }
 
 .study1 {
-  background-image: url("http://www.livingfengshui.ca/wp-content/uploads/2014/01/unsplash-contemplative.jpg");
+  background-image: url("../img/sketching.jpg");
 }
 
 .study2 {
-  background-image: url("http://imgs.abduzeedo.com/files/paul0v2/unsplash/unsplash-04.jpg");
+  background-image: url("../img/wireframe.jpg");
 }
 
 .study3 {
-  background-image: url("http://415vince.com/wp-content/uploads/2014/07/unsplash-mts.jpg");
+  background-image: url("../img/infoarch.gif");
 }
 
 .study4 {
-  background-image: url("http://41.media.tumblr.com/8d41610b4f5e7d5b68e4430b736fbeb3/tumblr_n4vbj2Vv8h1st5lhmo1_1280.jpg");
+  background-image: url("../img/research.jpg");
 }
 
 .study5 {
-  background-image: url("http://publicdomainarchive.com/wp-content/uploads/2014/06/public-domain-images-free-stock-photos-high-quality-resolution-downloads-unsplash0067-1000x666.jpg");
+  background-image: url("../img/uxflow.png");
 }
 
 .study6 {
-  background-image: url("http://www.bedlammag.com/wp-content/uploads/2014/04/unsplash-love-yourself-article-e1397699812178.jpg");
+  background-image: url("../img/axureproto.png");
+}
+
+.study7 {
+  background-image: url("../img/desktop.png");
+}
+
+.study8 {
+  background-image: url("../img/logo.png");
+}
+
+.study9 {
+  background-image: url("../img/composition.png");
+}
+
+.study10 {
+  background-image: url("../img/ad.png");
+}
+
+.portrait {
+  background-image: url("../img/portrait.png");
+  filter: sepia(1);
+  -webkit-filter: sepia(1);
+  -moz-filter: sepia(1);
+  -o-filter: sepia(1);
+  -ms-filter: sepia(1);
+}
+
+.process{
+
+  width: 100%;
+  display: block;
+  transform: translateY(50%);
+  margin: 0 auto;
+
+  filter: hue-rotate(55deg);
+  -webkit-filter: hue-rotate(55deg);
+  -moz-filter: hue-rotate(55deg);
+  -o-filter: hue-rotate(55deg);
+  -ms-filter: hue-rotate(550deg);
+
+
+}
+
+footer{
+
+height: auto;
+width: 100%
+
 }
 
 /*ribbon*/
@@ -1279,8 +1335,5 @@ background: crimson;
 
 }
 
-
-
-
-
+/*footer*/
 
