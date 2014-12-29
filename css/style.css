@@ -72,7 +72,7 @@ font-size: 2em;
 }
 .header #logo {
   float: left;
-  margin: 13px 0 0 5%;
+  margin: 5px 0 0 5%;
 }
 .header #logo img {
   display: block;
@@ -82,7 +82,7 @@ font-size: 2em;
     height: 70px;
   }
   .header #logo {
-    margin: 23px 0 0 5%;
+    margin: 15px 0 0 5%;
   }
 
 }
@@ -735,7 +735,7 @@ body {
 }
 
 .study8 {
-  background-image: url("../img/logo.png");
+  background-image: url("../img/plogo.png");
 }
 
 .study9 {
@@ -1336,4 +1336,14 @@ background: crimson;
 }
 
 /*footer*/
+
+
+.footer-logo{
+
+width: 70%;
+height: 70%;
+position: relative;
+margin: 15%;
+
+}
 
