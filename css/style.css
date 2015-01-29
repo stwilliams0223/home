@@ -681,6 +681,14 @@ body {
   transition: all .4s ease;
 }
 
+.work1 .case-study-img {
+ 
+
+  background-color: white;
+
+}
+
+
 .description {
   position: relative;
   display: block;
