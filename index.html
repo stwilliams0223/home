@@ -171,8 +171,8 @@
 		<img class="case-study__img" src="" alt="" />
 	</figure>
   <div class="case-study__overlay">
-  	<h2 class="case-study__title">Sketchings</h2>
-    <a class="case-study__link" href="http://stwilliams0223.github.io/home/sketching.html">View Sketches</a>
+  	<h2 class="case-study__title">Huston Hearing</h2>
+    <a class="case-study__link" href="http://stwilliams0223.github.io/home/huston.html">See Case Study</a>
   </div>
 </div>
   
@@ -181,8 +181,8 @@
 		<img class="case-study__img" src="" alt="" />
 	</figure>
   <div class="case-study__overlay">
-  	<h2 class="case-study__title">Wireframing</h2>
-    <a class="case-study__link" href="http://stwilliams0223.github.io/home/wireframing.html">View Wireframes</a>
+  	<h2 class="case-study__title">Buyer's Guide</h2>
+    <a class="case-study__link" href="http://stwilliams0223.github.io/home/wireframing.html">See Case Study</a>
   </div>
 </div>
   
@@ -191,8 +191,8 @@
 		<img class="case-study__img" src="" alt="" />
 	</figure>
   <div class="case-study__overlay">
-  	<h2 class="case-study__title">Info. Architecture</h2>
-    <a class="case-study__link" href="http://stwilliams0223.github.io/home/information-architecture.html">View Process</a>
+  	<h2 class="case-study__title">Logo Design</h2>
+    <a class="case-study__link" href="http://stwilliams0223.github.io/home/information-architecture.html">See Logos</a>
   </div>
 </div>
   
@@ -201,8 +201,8 @@
 		<img class="case-study__img" src="" alt="" />
 	</figure>
   <div class="case-study__overlay">
-  	<h2 class="case-study__title">Research</h2>
-    <a class="case-study__link" href="http://stwilliams0223.github.io/home/research.html">View Process</a>
+  	<h2 class="case-study__title">Student Work</h2>
+    <a class="case-study__link" href="http://stwilliams0223.github.io/home/research.html">See Work</a>
   </div>
 </div>
   
@@ -211,8 +211,8 @@
 		<img class="case-study__img" src="" alt="" />
 	</figure>
   <div class="case-study__overlay">
-  	<h2 class="case-study__title">Pageflows</h2>
-    <a class="case-study__link" href="http://stwilliams0223.github.io/home/pageflows.html">View Pageflows</a>
+  	<h2 class="case-study__title">Photography</h2>
+    <a class="case-study__link" href="http://stwilliams0223.github.io/home/pageflows.html">See Photos</a>
   </div>
 </div>
   
@@ -221,8 +221,8 @@
 		<img class="case-study__img" src="" alt="" />
 	</figure>
   <div class="case-study__overlay">
-  	<h2 class="case-study__title">Prototypes</h2>
-    <a class="case-study__link" href="http://stwilliams0223.github.io/home/prototypes.html">View Prototypes</a>
+  	<h2 class="case-study__title">Seriously?</h2>
+    <a class="case-study__link" href="http://stwilliams0223.github.io/home/prototypes.html">Hire Me Already!</a>
   </div>
 </div>
 
@@ -284,7 +284,7 @@
 		   				 <!-- Copyright Info -->
 		 
 
-				        <p class="footer"><center>Copyright &copy; 2014 
+				        <p class="footer"><center>Copyright &copy; 2015 
 				        Designed by <a href="http://stwilliams0223.github.io">Scott Williams</a>. All Rights Reserved.</center></p>
 		    
 
@@ -295,7 +295,22 @@
 	</main> <!-- main-content -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/main.js"></script> <!-- Resource jQuery -->
+	<script> $('.gallery ul li a').click(function() {
+     var itemID = $(this).attr('href');
+     $('.gallery ul').addClass('item_open');
+     $(itemID).addClass('item_open');
+     return false;
+ });
+ $('.close').click(function() {
+     $('.port, .gallery ul').removeClass('item_open');
+     return false;
+ });
 
+ $(".gallery ul li a").click(function() {
+     $('html, body').animate({
+         scrollTop: parseInt($("#top").offset().top)
+     }, 400);
+ });</script>
 
 </body>
 </html>

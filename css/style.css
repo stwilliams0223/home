@@ -829,19 +829,20 @@ body {
 }
 
 .study1 {
-  background-image: url("../img/sketching.jpg");
+  background-image: url("../img/huston-hearing-site.png");
 }
 
 .study2 {
-  background-image: url("../img/wireframe.jpg");
+  background-image: url("../img/buyers-guide-site.png");
 }
 
 .study3 {
-  background-image: url("../img/infoarch.gif");
+  background-image: url("../favicon.ico");
+
 }
 
 .study4 {
-  background-image: url("../img/research.jpg");
+ background-image: url("../img/composition.png");
 }
 
 .study5 {
@@ -1498,3 +1499,16 @@ margin: 15%;
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
+
+/*portfolio images*/
+
+.img-site{
+
+max-width: 100%;
+
+
+}
+
+
+
+
